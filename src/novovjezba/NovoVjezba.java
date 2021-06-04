@@ -61,6 +61,6 @@ public class NovoVjezba {
 
 		broj = Integer.parseInt(JOptionPane.showInputDialog("Unesi dvoznamenkasti broj"));
 
-		System.out.println(broj / 10);
+		System.out.println(broj / 10);*/
 	}
-}*/
+}
