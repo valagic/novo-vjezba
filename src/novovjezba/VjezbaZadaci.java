@@ -11,7 +11,14 @@ public class VjezbaZadaci {
 		za parni broj se ispisuje Osijek
 		za neparni broj se ispisuje Donji Miholjac*/
 
+		int a;
+		a = Integer.parseInt(JOptionPane.showInputDialog("unesi cijeli broj"));
 		
+		if (a%2 == 0) {
+			System.out.println("Osijek");
+		}else {
+			System.out.println("DOnji Miholjac");
+		}
 		
 		
 		
@@ -54,6 +61,16 @@ public class VjezbaZadaci {
 		Program unosi tri cijela broja od korisnika
 		program ispisuje najmanji uneseni broj*/
 		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		/*Zadatak 4 - primitivni kalkulator
 		Korisnika unosi prvo operaciju:
 		1 - zbrajanje
@@ -80,19 +97,19 @@ public class VjezbaZadaci {
 		i razlika prvog i drugog manja od 0 program ispisuje
 		Osijek, inaèe ispisuje Donji Miholjac.*/
 		
-		int a,b,c;
-		
-		a = Integer.parseInt(JOptionPane.showInputDialog("unesi prvi broj"));
-		b = Integer.parseInt(JOptionPane.showInputDialog("unesi drugi broj"));
-		c= a+b;
-		
-		
-	if(c>10 && c<0) {
-		System.out.println("osijek");
-	}else {
-		System.out.println("donji miholjac");
-	}
-		
+					/*	int a,b,c;
+						
+						a = Integer.parseInt(JOptionPane.showInputDialog("unesi prvi broj"));
+						b = Integer.parseInt(JOptionPane.showInputDialog("unesi drugi broj"));
+						c= a+b;
+						
+						
+					if(c>10 && c<0) {
+						System.out.println("osijek");
+					}else {
+						System.out.println("donji miholjac");
+					}*/
+						
 		
 		
 		
