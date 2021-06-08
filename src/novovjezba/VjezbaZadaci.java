@@ -11,7 +11,7 @@ public class VjezbaZadaci {
 		za parni broj se ispisuje Osijek
 		za neparni broj se ispisuje Donji Miholjac*/
 
-							/*int a;
+							/*int a,b,c;
 							a = Integer.parseInt(JOptionPane.showInputDialog("unesi cijeli broj"));
 							
 							if (a%2 == 0) {
@@ -26,7 +26,18 @@ public class VjezbaZadaci {
 		U sluèaju unosa parnog broja tražiti unos
 		dva cijela broja i ispisati zbroj*/
 		
-		
+							int a,b,c;
+							a = Integer.parseInt(JOptionPane.showInputDialog("unesi cijeli broj"));
+							
+							if (a%2 == 0) {
+								System.out.println("Osijek");
+								b = Integer.parseInt(JOptionPane.showInputDialog("unesi prvi broj"));
+								c = Integer.parseInt(JOptionPane.showInputDialog("unesi drugi broj"));
+								System.out.println(b+c);
+								
+							}else {
+								System.out.println("DOnji Miholjac");
+							}
 		
 		
 		
@@ -61,20 +72,20 @@ public class VjezbaZadaci {
 		Program unosi tri cijela broja od korisnika
 		program ispisuje najmanji uneseni broj*/
 		
-		int a,b,c;
-		
-		a = Integer.parseInt(JOptionPane.showInputDialog("unesi prvi broj"));
-		b = Integer.parseInt(JOptionPane.showInputDialog("unesi drugi broj"));
-		c = Integer.parseInt(JOptionPane.showInputDialog("unesi treci broj"));
-		
-		if(a<b) {
-			System.out.println(a);
-		}else if (b<c) {
-			System.out.println(b);
-		}else {
-			System.out.println(c);
-		}
-		
+					/*int a,b,c;
+					
+					a = Integer.parseInt(JOptionPane.showInputDialog("unesi prvi broj"));
+					b = Integer.parseInt(JOptionPane.showInputDialog("unesi drugi broj"));
+					c = Integer.parseInt(JOptionPane.showInputDialog("unesi treci broj"));
+					
+					if(a<b) {
+						System.out.println(a);
+					}else if (b<c) {
+						System.out.println(b);
+					}else {
+						System.out.println(c);
+					}
+		*/
 		
 		
 		
