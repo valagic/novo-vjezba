@@ -49,12 +49,15 @@ public class VjezbaZadaci {
 		
 		
 		
+		
+		
+		
 		/*Zadatak 2
 		Program unosi dva cijela broja od korisnika
 		program ispisuje veæi uneseni broj*/
 
 		
-					int a,b;
+					/*int a,b;
 					
 					a = Integer.parseInt(JOptionPane.showInputDialog("unesi prvi broj"));
 					b = Integer.parseInt(JOptionPane.showInputDialog("unesi drugi broj"));
@@ -63,7 +66,7 @@ public class VjezbaZadaci {
 						System.out.println("prvi broj je veci od drugoga");
 					}else {
 						System.out.println("drugi broj je veci od prvoga");
-					}
+					}*/
 					
 					
 		
@@ -105,6 +108,60 @@ public class VjezbaZadaci {
 		U odnosu na odabranu operaciju program ispisuje rezultat
 		Ako je rezultat cijeli broj tada se ispisuje bez .0*/
 		
+		int operacija;
+		double a,b;
+		
+		
+		operacija = Integer.parseInt(JOptionPane.showInputDialog("unesi operaciju - 1 zbranjanje, 2 oduzimanje, 3 mnozenje, 4 djeljenje"));
+
+		if (operacija<=0 || operacija>=5) {
+			System.out.println("Greska");
+		}
+		
+		a = Double.parseDouble(JOptionPane.showInputDialog("unesi prvi broj"));
+		b = Double.parseDouble(JOptionPane.showInputDialog("unesi drugi broj"));
+		
+		double operacijaZbroj = a+b;
+		double operacijaOduzimanje = a-b;
+		double operacijaMnozenje = a*b;
+		double operacijaDjeljenje = a/b;
+		
+		int Zbroj = (int)operacijaZbroj;
+		int Oduzimanje = (int)operacijaOduzimanje;
+		int Mnozenje = (int)operacijaMnozenje;
+		int Djeljenje = (int)operacijaDjeljenje;
+		
+		if (operacija == 1) {
+			System.out.println("zbranjanje");
+			if (Zbroj == operacijaZbroj ) {
+				System.out.println(Zbroj);
+			}else {
+				System.out.println(operacijaZbroj);
+			}
+		}else if (operacija == 2) {
+			System.out.println("oduzimanje");
+			if (Oduzimanje == operacijaOduzimanje ) {
+				System.out.println(Oduzimanje);
+			}else {
+				System.out.println(operacijaOduzimanje);
+			}
+		}else if (operacija == 3) {
+			System.out.println("mnozenje");
+			if (Mnozenje == operacijaMnozenje ) {
+				System.out.println(Mnozenje);
+			}else {
+				System.out.println(operacijaMnozenje);
+			}
+		}else if(operacija == 4) {
+			System.out.println("djeljenje");
+			if (Djeljenje == operacijaDjeljenje ) {
+				System.out.println(Djeljenje);
+			}else {
+				System.out.println(operacijaDjeljenje);
+			}
+		}
+		
+
 		
 		
 		
