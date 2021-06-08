@@ -1,5 +1,7 @@
 package novovjezba;
 
+import javax.swing.JOptionPane;
+
 public class VjezbaZadaci {
 
 	public static void main(String[] args) {
@@ -8,8 +10,7 @@ public class VjezbaZadaci {
 		korisnik unosi cijeli broj
 		za parni broj se ispisuje Osijek
 		za neparni broj se ispisuje Donji Miholjac*/
-		
-		
+
 		
 		
 		
@@ -47,7 +48,16 @@ public class VjezbaZadaci {
 		}
 		*/
 		
+		float a,b;
 		
+		a = Float.parseFloat(JOptionPane.showInputDialog("unesi prvi broj"));
+		b = Float.parseFloat(JOptionPane.showInputDialog("unesi drugi broj"));
+		
+		if (a>b) {
+			System.out.println("prvi broj je veci od drugoga");
+		}else {
+			System.out.println("drugi broj je veci od prvoga");
+		}
 		
 		
 		
