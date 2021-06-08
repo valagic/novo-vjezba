@@ -26,7 +26,7 @@ public class VjezbaZadaci {
 		U sluèaju unosa parnog broja tražiti unos
 		dva cijela broja i ispisati zbroj*/
 		
-							int a,b,c;
+							/*int a,b,c;
 							a = Integer.parseInt(JOptionPane.showInputDialog("unesi cijeli broj"));
 							
 							if (a%2 == 0) {
@@ -38,7 +38,7 @@ public class VjezbaZadaci {
 							}else {
 								System.out.println("DOnji Miholjac");
 							}
-		
+		*/
 		
 		
 		
@@ -54,16 +54,16 @@ public class VjezbaZadaci {
 		program ispisuje veæi uneseni broj*/
 
 		
-					/*float a,b;
+					int a,b;
 					
-					a = Float.parseFloat(JOptionPane.showInputDialog("unesi prvi broj"));
-					b = Float.parseFloat(JOptionPane.showInputDialog("unesi drugi broj"));
+					a = Integer.parseInt(JOptionPane.showInputDialog("unesi prvi broj"));
+					b = Integer.parseInt(JOptionPane.showInputDialog("unesi drugi broj"));
 					
 					if (a>b) {
 						System.out.println("prvi broj je veci od drugoga");
 					}else {
 						System.out.println("drugi broj je veci od prvoga");
-					}*/
+					}
 					
 					
 		
