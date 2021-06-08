@@ -34,32 +34,20 @@ public class VjezbaZadaci {
 		/*Zadatak 2
 		Program unosi dva cijela broja od korisnika
 		program ispisuje veæi uneseni broj*/
+
 		
-		// jedno od rješenja
-		/*
-		public static void main(String[] args) {
-			if(Integer.parseInt(
-					JOptionPane.showInputDialog("Prvi broj"))>
-			Integer.parseInt(JOptionPane.showInputDialog("Drugi broj"))) {
-				System.out.println("Prvi je veæi");
-			}else {
-				System.out.println("Drugi je veæi");
-			}
-		}
-		*/
-		
-		float a,b;
-		
-		a = Float.parseFloat(JOptionPane.showInputDialog("unesi prvi broj"));
-		b = Float.parseFloat(JOptionPane.showInputDialog("unesi drugi broj"));
-		
-		if (a>b) {
-			System.out.println("prvi broj je veci od drugoga");
-		}else {
-			System.out.println("drugi broj je veci od prvoga");
-		}
-		
-		
+					/*float a,b;
+					
+					a = Float.parseFloat(JOptionPane.showInputDialog("unesi prvi broj"));
+					b = Float.parseFloat(JOptionPane.showInputDialog("unesi drugi broj"));
+					
+					if (a>b) {
+						System.out.println("prvi broj je veci od drugoga");
+					}else {
+						System.out.println("drugi broj je veci od prvoga");
+					}*/
+					
+					
 		
 		
 		/*Zadatak 3
@@ -92,8 +80,18 @@ public class VjezbaZadaci {
 		i razlika prvog i drugog manja od 0 program ispisuje
 		Osijek, inaèe ispisuje Donji Miholjac.*/
 		
+		int a,b,c;
+		
+		a = Integer.parseInt(JOptionPane.showInputDialog("unesi prvi broj"));
+		b = Integer.parseInt(JOptionPane.showInputDialog("unesi drugi broj"));
+		c= a+b;
 		
 		
+	if(c>10 && c<0) {
+		System.out.println("osijek");
+	}else {
+		System.out.println("donji miholjac");
+	}
 		
 		
 		
