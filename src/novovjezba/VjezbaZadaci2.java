@@ -1,5 +1,7 @@
 package novovjezba;
 
+import javax.swing.JOptionPane;
+
 public class VjezbaZadaci2 {
 
 	public static void main(String[] args) {
@@ -7,6 +9,19 @@ public class VjezbaZadaci2 {
 		
 		//Program uèitava 5 decimalnih brojeva u niz
 		//Program ispisuje prvi i posljednji element niza
+		
+		double a,b,c,d,e;
+		
+		a = Double.parseDouble(JOptionPane.showInputDialog("unesi prvi decimalni broj"));
+		b = Double.parseDouble(JOptionPane.showInputDialog("unesi prvi decimalni broj"));
+		c = Double.parseDouble(JOptionPane.showInputDialog("unesi prvi decimalni broj"));
+		d = Double.parseDouble(JOptionPane.showInputDialog("unesi prvi decimalni broj"));
+		e = Double.parseDouble(JOptionPane.showInputDialog("unesi prvi decimalni broj"));
+		
+		double niz[] = {a,b,c,d,e};
+		System.out.println(niz[0]+ " " +niz[4]);
+		
+		
 		
 		//Program preko args parametara prima dva cijela broja
 		//Program ispisuje zbroj primljenih brojeva
