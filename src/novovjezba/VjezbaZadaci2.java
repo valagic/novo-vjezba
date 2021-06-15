@@ -26,12 +26,42 @@ public class VjezbaZadaci2 {
 		//Program preko args parametara prima dva cijela broja
 		//Program ispisuje zbroj primljenih brojeva
 		
+		
+		
+		
+		
+		
+		
+		
 		//Korisnik unosi cijeli broj
 		//Program ispisuje broj 7 jedno ispod drugog
 		//onoliko puta koliko je korisnik unio
 		
+		int g;
+		
+		g = Integer.parseInt(JOptionPane.showInputDialog("unesi jedan cijeli broj"));
+		
+		for(int i=0;i<g;i++) {
+			System.out.println("ispisi broj 7");
+		}
+		
+		
+		
+		
 		// program ispisuje sve parne brojeve od 1 do 55
 		// U petlji obavezno koristiti vrijednosti 1 i 55
+		
+		
+		for(int i=1;i<=55;i++) {
+			if(i%2==0) {
+				System.out.println(i);
+			}else {
+				System.out.println("nije parni broj");
+			}
+		}
+		
+		
+		
 		
 		/*
 		//loše rješenje
