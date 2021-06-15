@@ -13,10 +13,10 @@ public class VjezbaZadaci2 {
 		double a,b,c,d,e;
 		
 		a = Double.parseDouble(JOptionPane.showInputDialog("unesi prvi decimalni broj"));
-		b = Double.parseDouble(JOptionPane.showInputDialog("unesi prvi decimalni broj"));
-		c = Double.parseDouble(JOptionPane.showInputDialog("unesi prvi decimalni broj"));
-		d = Double.parseDouble(JOptionPane.showInputDialog("unesi prvi decimalni broj"));
-		e = Double.parseDouble(JOptionPane.showInputDialog("unesi prvi decimalni broj"));
+		b = Double.parseDouble(JOptionPane.showInputDialog("unesi drugi decimalni broj"));
+		c = Double.parseDouble(JOptionPane.showInputDialog("unesi treci decimalni broj"));
+		d = Double.parseDouble(JOptionPane.showInputDialog("unesi cetvrti decimalni broj"));
+		e = Double.parseDouble(JOptionPane.showInputDialog("unesi peti decimalni broj"));
 		
 		double niz[] = {a,b,c,d,e};
 		System.out.println(niz[0]+ " " +niz[4]);
