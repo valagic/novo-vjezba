@@ -30,16 +30,16 @@ public class VjezbaBrziZadaci {
 		
 		int i=2, j=0;
 		i=--i + ++j + i++;
-		j=j++ + i++ - ++j;
+		j=j++ + i++ - ++j; 
 		System.out.println(i-j); //3
 		
 		int x = 0;
 		x = x++ + x--;
-		System.out.println(x);
+		System.out.println(x); //1
 		
 		int y = 0;
 		y= ++y + --y;
-		System.out.println(y);
+		System.out.println(y); //1
 	}
 }
 
