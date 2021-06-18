@@ -1,13 +1,33 @@
 package novovjezba;
 
+import javax.swing.JOptionPane;
+
 public class VjezbaZadaci3 {
 
 	public static void main(String[] args) {
 		
 		//Program unosi 2 broja i ispisuje zbroj
 		
+		int prviBroj, drugiBroj;
+		
+		prviBroj = Integer.parseInt(JOptionPane.showInputDialog("unesi prvi broj"));
+		drugiBroj = Integer.parseInt(JOptionPane.showInputDialog("unesi drugi broj"));
+		
+		System.out.println(prviBroj+drugiBroj);
+		
 		// program od korisnika unosi 2 decimalna broja
 		// ispisuje veæi
+		
+		float a,b;
+		
+		a = Float.parseFloat(JOptionPane.showInputDialog("unesi prvi decimalni broj"));
+		b = Float.parseFloat(JOptionPane.showInputDialog("unesi drugi decimalni broj"));
+		
+		if(a>b) {
+			System.out.println(a);
+		}else {
+			System.out.println(b);
+		}
 		
 		// Program ispisuje sve brojeve od 100 do 21
 		// jedno do drugoga odvojeno zarezom
