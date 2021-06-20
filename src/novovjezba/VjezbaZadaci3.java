@@ -93,16 +93,42 @@ public class VjezbaZadaci3 {
 		// Program ispisuje matricu 15 x 15
 		// tako da je svaki element matrice broj 0
 		
+
+		int matrica[][] =new int[15][15];
+		
+		for(int i=0;i<matrica.length;i++) {
+			System.out.println(Arrays.toString(matrica[i]));
+		}
+		
+		
 		//Program od korisnika unosi brojeve
 		// sve dok korisnik ne unese broj 0
 		//Program ispisuje zbroj svih unesenih brojeva
 		
+		int d,sum;
+		sum=0;
+		
+		for(;;) {
+			d = Integer.parseInt(JOptionPane.showInputDialog("unesi brojeve"));
+			if(d==0) {
+				break;
+			}
+			sum=sum+d;
+			
+		}System.out.println(sum);
+		
 		// Ispiši Sve parne brojeve od 3 do 47
+		for(int i=3;i<47;i++) {
+			if(i%2==0) {
+				System.out.println(i);
+			}
+		}
 		
 		// Za dva dana broja ispišite decimalni dio rezultata
 		// djeljenja
 		
 		// Program ispisuje "Edunova" (ispisuju se i navodnici)
 		
+		System.out.println("\"Edunova\"");
 	}
 }
