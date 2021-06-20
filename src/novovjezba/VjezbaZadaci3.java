@@ -100,6 +100,17 @@ public class VjezbaZadaci3 {
 			System.out.println(Arrays.toString(matrica[i]));
 		}
 		
+		/*drugi nacin
+		 * int e=15;
+		int f=15;
+		
+		for (int i = 1; i <= e; i++) {
+			for (int j = 1; j <= f; j++) {
+				System.out.print(0 + " ");
+			}
+			System.out.println();
+		}*/
+		 
 		
 		//Program od korisnika unosi brojeve
 		// sve dok korisnik ne unese broj 0
