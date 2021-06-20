@@ -55,8 +55,25 @@ public class VjezbaZadaci3 {
 		// Program od korisnika unosi dva parna broja
 		// Program ispisuje njohov zbroj
 		
+		int m,n;
+
 		
-		
+		for(;;) {
+			m = Integer.parseInt(JOptionPane.showInputDialog("unesi prvi parni broj"));
+			if(m%2==0) {
+				break;
+			}
+				JOptionPane.showInternalMessageDialog(null, "nije parni broj");
+			}
+
+		for(;;) {
+			n = Integer.parseInt(JOptionPane.showInputDialog("unesi drugi parni broj"));
+			if(n%2==0) {
+				break;
+			}
+			JOptionPane.showInternalMessageDialog(null, "nije parni broj");
+		}
+		System.out.println(m+n);
 		
 		
 		
@@ -95,7 +112,24 @@ public class VjezbaZadaci3 {
 		// i s broj 1.
 		// Za uneseni broj x = 27353 ispišite da li je prim broj
 		
-		
+		int r = 27353;
+		boolean primBroj = true;
+
+		for(int i=2;i<(r/2);i++) {
+
+			if(r%i==0) {
+				primBroj = false;
+				System.out.println("Broj " + r + " je cjelobrojno djeljiv sa " + i);
+				break;
+			}			
+
+		}
+
+		if(primBroj) {
+			System.out.println("Broj " + r + " je prim broj");
+		}else {
+			System.out.println("Broj " + r + " nije prim broj");
+		}
 		
 		
 		
@@ -110,16 +144,16 @@ public class VjezbaZadaci3 {
 			System.out.println(Arrays.toString(matrica[i]));
 		}
 		
-		/*drugi nacin
-		 * int e=15;
-		int f=15;
-		
-		for (int i = 1; i <= e; i++) {
-			for (int j = 1; j <= f; j++) {
-				System.out.print(0 + " ");
-			}
-			System.out.println();
-		}*/
+					/*drugi nacin
+					 * int e=15;
+					int f=15;
+					
+					for (int i = 1; i <= e; i++) {
+						for (int j = 1; j <= f; j++) {
+							System.out.print(0 + " ");
+						}
+						System.out.println();
+					}*/
 		 
 		
 		//Program od korisnika unosi brojeve
