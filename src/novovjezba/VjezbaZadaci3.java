@@ -55,6 +55,11 @@ public class VjezbaZadaci3 {
 		// Program od korisnika unosi dva parna broja
 		// Program ispisuje njohov zbroj
 		
+		
+		
+		
+		
+		
 		// Program unosi 10 cijelih brojeva od korisnika
 		// u jednodimenzionalni niz
 		// Program ispisuje sve elemente niza
@@ -89,6 +94,11 @@ public class VjezbaZadaci3 {
 		// Prim broj je broj koji je cjelobrojno djeljiv sam s sobom
 		// i s broj 1.
 		// Za uneseni broj x = 27353 ispišite da li je prim broj
+		
+		
+		
+		
+		
 		
 		// Program ispisuje matricu 15 x 15
 		// tako da je svaki element matrice broj 0
@@ -137,6 +147,18 @@ public class VjezbaZadaci3 {
 		
 		// Za dva dana broja ispišite decimalni dio rezultata
 		// djeljenja
+		
+		double k,l;
+		
+		k = Double.parseDouble(JOptionPane.showInputDialog("unesi prvi broj"));
+		l = Double.parseDouble(JOptionPane.showInputDialog("unesi drugi broj"));
+		double rezultat = k/l;
+		
+		int rez = (int) rezultat;
+		
+		System.out.println(rezultat - rez);
+		
+		
 		
 		// Program ispisuje "Edunova" (ispisuju se i navodnici)
 		
