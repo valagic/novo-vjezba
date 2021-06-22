@@ -32,11 +32,22 @@ public class VjezbaZadaci4 {
 		//Primjer ulaza: "Osijek, Zagreb, Varaždin, Sinj, Donji Miholjac"
 		// Sinj
 		
-		String gradovi = "Osijek, Zagreb, Varaždin, Sinj, Donji Miholjac";
-		String[] niz = gradovi.split(",");
-		
-		System.out.println(Arrays.toString(niz));
-		
+		String s = "Osijek, Zagreb, Varaždin, Sinjski lug, Donji Miholjac";
+		String[] gradovi = s.split(",");
+		int najmanji=Integer.MAX_VALUE;
+		int index=0;
+		for(int i=0;i<gradovi.length;i++) {
+			if(gradovi[i].trim().length()<najmanji) {
+				najmanji = gradovi[i].trim().length();
+				index=i;
+			}
+		}
+		System.out.println(gradovi[index].trim().toUpperCase());
+		for(String grad: gradovi) {
+			if(grad.trim().length()==najmanji) {
+				System.out.println(grad.trim().toLowerCase());
+			}
+		}
 		
 		
 		// Ulaz je ime i prezime
