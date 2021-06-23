@@ -6,6 +6,7 @@ public class VjezbanjeScannera {
 
 	public static void main(String[] args) {
 		
+		//primjer
 		Scanner novi = new Scanner(System.in); // kreira scanner objekt
 		System.out.println("unesi ime i prezime"); // pita nas da unesemo ime i prezime
 		
@@ -15,6 +16,7 @@ public class VjezbanjeScannera {
 		
 		System.out.println();
 		
+		//primjer
 		Scanner noviDva = new Scanner(System.in);
 		System.out.println("unesi ime,prezime,godina i placu");
 		
@@ -32,6 +34,7 @@ public class VjezbanjeScannera {
 		
 		System.out.println();
 		
+		//primjer
 		Scanner noviTri= new Scanner(System.in);
 		System.out.println("unesi ime i prezime, placu");
 		
@@ -44,6 +47,7 @@ public class VjezbanjeScannera {
 		
 		System.out.println();
 		
+		//primjer
 		Scanner noviCetiri = new Scanner(System.in);
 		System.out.println("unesi prvi broj");
 		int prviBroj = Integer.valueOf(noviCetiri.nextLine());
@@ -54,9 +58,35 @@ public class VjezbanjeScannera {
 		
 		System.out.println();
 		
+		//primjer
 		
+		// malo drukciji primjera iznad
+		Scanner noviPet = new Scanner(System.in);
+		System.out.println("Unesi prvi broj");
 		
+		int prviBrojJedan = noviPet.nextInt();
+		System.out.println("unesi drugi broj");
+		int drugiBrojdrugi = noviPet.nextInt();
+		System.out.println("zbroj je : " + (prviBrojJedan+drugiBrojdrugi));
 		
+		System.out.println();
+		
+		//primjer scanner if
+		
+		Scanner noviSest = new Scanner(System.in);
+		
+		System.out.println("unesi prvi broj");
+		int a = noviSest.nextInt();
+		System.out.println("unesi drugi broj");
+		int b = noviSest.nextInt();
+		
+		if(a>b) {
+			System.out.println(a + " je veci od " + b);
+		}else if(b>a){
+			System.out.println(b + " je veci od " + a);
+		}else {
+			System.out.println("brojevi su jednaki");
+		}
 		
 		
 		

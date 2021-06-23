@@ -22,8 +22,8 @@ public class VjezbaZadaci4 {
 		
 		// s pomoæu do while petlje zbrojite prvih 100 brojeva
 		// ispišite rzultat
-		
 
+		
 
 		
 		// Ulaz u program je niz znakova koji sadrži
