@@ -23,6 +23,16 @@ public class VjezbaZadaci4 {
 		// s pomoæu do while petlje zbrojite prvih 100 brojeva
 		// ispišite rzultat
 
+		int b=0;
+		int sum=0;
+		do {
+			sum=sum+b;
+			b++;
+			System.out.println(sum);
+		}while(b<=100); {
+
+		} // ispise tocan rezultat na kraju, ali radi sumu non stop; potrebno jos doraditi
+		
 		
 
 		
